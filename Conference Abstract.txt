@@ -1,0 +1,24 @@
+"Introduction to the Raspberry Pi"
+or
+"Making Hacking Projects with the Raspberry Pi"
+or
+"Intro to Hacking with the Raspberry Pi"
+
+Abstract:
+You've heard lots of hype about the Raspberry Pi, the credit-card sized 
+computer available for under $40. This talk will introduce some of the Pi's 
+features, explore some sample projects you can create, and show you how to 
+write code to control hardware through it's IO pins. After this talk you will 
+be ready to make your own cool hacking projects with the Pi.
+
+
+Sarah is currently finishing her computer science degree at the University of 
+Missouri-Kansas City. She also teaches the Intro to Programming 2 (C++) class 
+there. In her free time, she is involved with UMKC's robotics team and ACM‘s 
+programming competition team. She has also participated in three hackathons, 
+including one in which her team won the Best Mobile App award. She is a mentor 
+for a FIRST Tech Challenge team and previously worked with two FIRST LEGO 
+League teams, all whom have won numerous awards, including a top award at the 
+FLL world competition. She is on the planning committees for the Missouri, 
+Iowa, Nebraska, and Kansas Women in Computing conference and the Society of 
+Women Engineers regional conference.
