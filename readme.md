@@ -1,3 +1,8 @@
+# Intro to Hacking with the Raspberry Pi
+## Nebraska.Code() conference
+
+Sarah Withee - [@geekygirlsarah](https://www.twitter.com/geekygirlsarah)
+
 These are the slides, wiring diagrams, code samples, and more for my talk.
 
 Versions:
