@@ -1,23 +1,19 @@
-# Sarah Withee
-# Intro to Hacking with the Raspberry Pi
-# 3/20/2015
-# Project 3 - Ultrasonic sensors
-
+# NCC Project 3
 import time
 import RPi.GPIO as GPIO
 
 
-# Set up the ultrasonic sensor pins
-u1Trig = 11
-u1Echo = 13
-u2Trig = 19
-u2Echo = 21
-u3Trig = 29
-u3Echo = 31
+# Set up the ultrasonic sensors
+uTrig = 19
+uEcho = 21
 
-# Function to get the reading from a sensor
-# Function is a modified version of 
-# http://www.bytecreation.com/blog/2013/10/13/raspberry-pi-ultrasonic-sensor-hc-sr04
+leds = [3, 5, 7, 11, 13, 15]
+
+GPIO.setmode(GPIO.BOARD)
+for i in leds:
+	#print(i)
+	GPIO.setup(i, GPIO.OUT)
+	GPIO.output(i, GPIO.LOW)
 
 def reading(trigger, echo):
 	
@@ -30,7 +26,6 @@ def reading(trigger, echo):
 	# reference in this code is 25, which is the number of the GPIO 
 	# port and not the number of the physical pin
 	#print("Set mode")
-  # I changed it. I like board better.
 	GPIO.setmode(GPIO.BOARD)
 	
 	# point the software to the GPIO pins the sensor is using
@@ -102,8 +97,7 @@ def reading(trigger, echo):
 	return distance
 		
 	# we're no longer using the GPIO, so tell software we're done
-	# Disabled as we want to keep using them
-  #GPIO.cleanup()
+	#GPIO.cleanup()
 
 
 		
@@ -111,10 +105,13 @@ def reading(trigger, echo):
 
 while True:
 	# Grab a reading
-	reading1 = reading(u1Trig, u1Echo)
-	reading2 = reading(u2Trig, u2Echo)
-	reading3 = reading(u3Trig, u3Echo)
+	read = reading(uTrig, uEcho)
 
-  # Average and print it out
-	readingAvg = (reading1 + reading2 + reading3) / 3
-	print(readingAvg)
+	print(read)
+
+	for i in range(0, 6):
+		print(i)
+		if read > i * 3:
+			GPIO.output(leds[i], GPIO.HIGH)
+		else:
+			GPIO.output(leds[i], GPIO.LOW)
