@@ -12,6 +12,4 @@ Date | Venue
 2015-10-?? | Missouri, Iowa, Nebraska, Kansas Women in Computing conference (MINK WIC)
 
 ##Contact
-I'd love to answer any questions you have about my session.
-The easiest method to contact me is by Twitter: [@geekygirlsarah](https://www.twitter.com/geekygirlsarah)
-My email is on the last slide (not posted here to prevent spam)
+I'd love to answer any questions you have about my session. The easiest method to contact me is by Twitter: [@geekygirlsarah](https://www.twitter.com/geekygirlsarah). My email is on the last slide (not posted here to prevent spam). 
