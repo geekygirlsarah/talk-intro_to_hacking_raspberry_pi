@@ -9,6 +9,7 @@ Date | Venue
 2015-03-20 | Nebraska.Code() conference
 2015-04-28 | UMKC IEEE meeting
 2015-06-25 | Kansas City Developer Conference (KCDC)
+2015-06-26 | Kansas City Developer Conference (KCDC) (repeated session due to popularity)
 2015-10-?? | Missouri, Iowa, Nebraska, Kansas Women in Computing conference (MINK WIC)
 
 ##Contact
