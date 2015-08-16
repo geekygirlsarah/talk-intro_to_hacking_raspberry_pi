@@ -10,7 +10,8 @@ Date | Venue
 2015-04-28 | UMKC IEEE meeting
 2015-06-25 | Kansas City Developer Conference (KCDC)
 2015-06-26 | Kansas City Developer Conference (KCDC) (repeated session due to popularity)
-2015-10-?? | Missouri, Iowa, Nebraska, Kansas Women in Computing conference (MINK WIC)
+2015-10-16 | Missouri, Iowa, Nebraska, Kansas Women in Computing conference (MINK WIC)
+2015-11-12 | Kansas City IEEE CompSoc meeting 
 
 ##Contact
 I'd love to answer any questions you have about my session. The easiest method to contact me is by Twitter: [@geekygirlsarah](https://www.twitter.com/geekygirlsarah). My email is on the last slide (not posted here to prevent spam). 
