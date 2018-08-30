@@ -13,6 +13,7 @@ Date | Version | Venue
 2015-10-16 | 2.2 | Missouri, Iowa, Nebraska, Kansas Women in Computing conference (MINK WIC)
 2015-11-12 | 2.3 | Kansas City IEEE CompSoc meeting 
 2017-10-16 | 3.0 | DevUp Conference
+2018-08-29 | 3.0 | Code & Supply Pittsburgh Meetup
 
 ## Contact
 I'd love to answer any questions you have about my session. The easiest method to contact me is by Twitter: [@geekygirlsarah](https://www.twitter.com/geekygirlsarah). Other contact info is on my last slide.
