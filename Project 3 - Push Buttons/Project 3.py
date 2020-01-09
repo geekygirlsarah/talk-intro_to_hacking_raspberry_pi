@@ -3,7 +3,7 @@
 # Project 3
 
 # Imports
-import RPi_I2C_driver
+import RPi_I2C_driver       # Provided in talk repo
 import RPi.GPIO as GPIO
 from time import *
 from random import randint
@@ -46,6 +46,10 @@ mylcd.backlight(False)
 # Setup button_pins and switches
 GPIO.setmode(GPIO.BOARD)
 for i in range(0, len(button_pins)):
+    # This adds a "pull up" resistor to the button pins
+    # When a button is not pushed, it's sort of a "static" voltage
+    # This will turn it on high (3.3V) when not pressed
+    # You can then check for low (0V) when it is pressed
     GPIO.setup(button_pins[i], GPIO.IN, pull_up_down=GPIO.PUD_UP)
     GPIO.setup(led_pins[i], GPIO.OUT)
     GPIO.output(led_pins[i], False)
@@ -56,7 +60,7 @@ for i in range(0, len(button_pins)):
 
 # Are you ready?
 mylcd.backlight(True)
-mylcd.lcd_display_string("  Sarah Says!", 1)
+mylcd.lcd_display_string("  Sarah Says!", 1)    # Spaces help center text
 mylcd.lcd_display_string("Press to start!", 2)
 threeLedsOn(led_pins, True, True, True)
 
@@ -67,17 +71,18 @@ threeLedsAllOff(led_pins)
 mylcd.lcd_clear()
 mylcd.backlight(False)
 
-# Generate pattern
+# Generate pattern, increase for more difficulty
 number_of_blinks = 3
 
 pattern = []
 for i in range(0, number_of_blinks):
     pattern.append(randint(0, 2))
 
+# Debugging
 print(pattern)
 
 # Flash
-length_of_flash = 1  #seconds
+length_of_flash = 1  # seconds
 for i in range(0, number_of_blinks):
     if pattern[i] == 0:
         threeLedsOn(led_pins, True, False, False)
