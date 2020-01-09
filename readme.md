@@ -14,6 +14,8 @@ Date | Version | Venue
 2015-11-12 | 2.3 | Kansas City IEEE CompSoc meeting 
 2017-10-16 | 3.0 | DevUp Conference
 2018-08-29 | 3.0 | Code & Supply Pittsburgh Meetup
+2019-04-26 | 3.1 | Stir Trek
+2020-01-09 | 3.2 | Code Mash
 
 ## Contact
 I'd love to answer any questions you have about my session. The easiest method to contact me is by Twitter: [@geekygirlsarah](https://www.twitter.com/geekygirlsarah). Other contact info is on my last slide.
